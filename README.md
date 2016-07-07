@@ -9,7 +9,7 @@ I used ideas [from this thread](http://s13.zetaboards.com/Crypto/topic/6746690/1
 1. Pick a transposition key length to work with. Because of the grid transposition, this will usually be a factor of the length of ciphertext (e.g., a text with a length of 20 probably has a key of 4 or 5 characters).
 2. For every possible transposition key of the given length:
    * Calculate the [Index of Coincidence](https://en.wikipedia.org/wiki/Index_of_coincidence) (IC) for the digrams (sets of two characters) in the ciphertext
-   * Store the [forty highest unique ICs](/st "Completely random text has an IC of about 1, while English has an IC of about 1.73. The higher ICs are more likely to represent 'English-like' ciphered text.") and their corresponding transposition keys.
+   * Store the [forty highest unique ICs](/# "Completely random text has an IC of about 1, while English has an IC of about 1.73. The higher ICs are more likely to represent 'English-like' ciphered text.") and their corresponding transposition keys.
 3. Generate a list of valid configurations for each of those transposition keys (see below for theory), sorted by IC from highest (most-English-like) to lowest.
 4. For each valid configuration:
    * Convert the digrams to monograms and treat as a simple substitution cipher.
