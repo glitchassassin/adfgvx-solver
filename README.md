@@ -39,6 +39,6 @@ Upon reflection, I'm not positive if this method should still work with odd-leng
 
 ## Credits
 
-Thanks to /r/HiroshiKatsuro for the crypto challenge.
-Thanks to Revelation (and everyone else in the thread) at the Crypto Forum for the algorithm inspiration.
-Thanks to [PracticalCryptography.com](http://practicalcryptography.com/cryptanalysis/stochastic-searching/cryptanalysis-simple-substitution-cipher/) for the substitution solver & n-gram score algorithms.
+* Thanks to /r/HiroshiKatsuro for the crypto challenge.
+* Thanks to Revelation (and everyone else in the thread) at the Crypto Forum for the algorithm inspiration.
+* Thanks to [PracticalCryptography.com](http://practicalcryptography.com/cryptanalysis/stochastic-searching/cryptanalysis-simple-substitution-cipher/) for the substitution solver & n-gram score algorithms.
